@@ -1,0 +1,69 @@
+.pr-opt{
+    width: 1170px;
+    margin: 15px;
+    background-color:#F5F5F5;
+}
+
+.hat__title{
+    font-size: 32px;
+}
+
+.hat__text{
+    margin-top: 20px;
+}
+
+.hat{
+    height:auto;
+    width:auto;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+}
+
+.main{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+.item:hover{
+    margin-top: -30px;
+    box-shadow: 1px 1px #33333379 
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    margin: 2px;
+    font-size: 16px;
+    height:35px;
+    background-color:white;
+    padding-top:10px;
+}
+
+.item{
+    
+    width:300px;
+    margin: 10px;
+    padding: 0px;
+}
+
+.item__item1{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item__item2{
+    font-size: 32px;
+}
+
+.item__item1, .item__item2, .item__item3{
+    background-color:#333333f3;
+    color: white;
+}
+
