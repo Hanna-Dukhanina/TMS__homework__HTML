@@ -1,0 +1,87 @@
+.cust{
+    width:1170px;
+    margin:15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hat{
+    text-align: center;
+}
+
+.hat__title{
+    font-size: 36px;
+}
+
+.hat__text{
+    font-size: 18px;
+}
+
+.opinion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.opinion__item{
+    text-align: center;
+    align-content: center;
+    margin:0px 20px;
+    background-color: #E2E2E2;
+    padding: 30px;
+    border: 3px solid #E2E2E2;
+    border-radius: 10px;
+}
+
+.opinion__item{
+    position: relative;
+}
+
+.opinion__item::after{
+    content:"";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 70px solid #E2E2E2;
+    left: 20px;
+}
+
+.who{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.who__person{
+    margin:0px 80px;
+    width:250px;
+}
+
+.img{
+    position: relative;
+    width: 45px;
+    height: 45px;
+}
+
+.person1__img, .person2__img, .person3__img{
+    left: -55px;
+    top: 50px;
+}
+
+.name, .work{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 24px;
+}
+
+.work{
+    font-size: 18px; 
+    margin-top: 10px;  
+}
