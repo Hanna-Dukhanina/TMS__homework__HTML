@@ -1,0 +1,46 @@
+body{
+    width:100%;
+}
+header{
+    width:1170px;
+    height:75px;
+    margin:0 auto;
+    padding: 15px;
+    background-color: black;
+    box-sizing: border-box;
+}
+.logo{
+    width:120px;
+    height:23px;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    top: 5px;
+}
+.navigation_menu{
+    width:600px;
+    height:75px;  
+}
+.menu_link{
+    display:flex;
+}
+li{
+    font-family: "Open Sans", "Raleway", Arial;
+    text-align: center;
+    list-style-type: none;
+    margin:10px;
+}
+a{
+    text-decoration: none;
+}
+/*.Banner{
+    width: 1170px;
+    margin:0 auto;
+    padding: 15px;
+    background-image: url(./images/background.png);
+}*/
+
+
+.title{
+    font-size: 48px;
+}
